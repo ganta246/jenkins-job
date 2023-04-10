@@ -1,0 +1,161 @@
+git install
+step1 : 	sudosu
+	yumupdate –y
+	yuminstallgit
+	git -–version
+
+
+jenkins install 
+
+step: $ sudo yum -y update
+step: $ sudo yum install java-1.8.0-openjdf-devel
+step: $ java -version
+curl --silent --location http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo | sudo tee /etc/yum.repos.d/jenkins.repo
+sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+openjdk 17.0.6 2023-01-17 LTS
+sudo yum install jenkins
+step: $ sudo yum install jenkins-2.138.1-1.1.noarch.rpm
+step: sudo systemctl start jenkins
+$ sudo systemctl enable jenkins
+$ sudo systemctl status jenkins
+
+maven install
+
+step: sudo yum install maven
+step: mvn ––version
+step: sudo yum install java-1.8.0-openjdk-devel
+step: java –version
+step: sudo wget http://mirrors.ibiblio.org/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz –P /tmp
+step: sudo yum install wget
+step: sudo tar xf /tmp/apache-maven-2.6.0-bin.tar.gz –C /opt
+step: sudo ln –s /opt/apache-maven-3.6.0 /opt/maven
+step: sudo vi /etc/profile.d/maven.sh
+step: # Apache Maven Environmental Variables
+# MAVEN_HOME for Maven 1 - M2_HOME for Maven 2
+export JAVA_HOME=/usr/lib/jvm/jre-openjdk
+export M2_HOME=/opt/maven
+export MAVEN_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}(change to the path)
+step: sudo chmod +x /etc/profile.d/maven.sh
+step: mvn ––version
+
+docker install
+step:sudo yum check-update
+step:curl -fsSL https://get.docker.com/ | sh
+step:sudo systemctl start docker
+step:sudo systemctl start docker
+step:sudo systemctl status docker
+step:sudo systemctl status docker
+step:sudo systemctl enable docker
+step:sudo usermod -aG docker $(whoami)
+step:sudo usermod -aG docker username
+
+kubernetes install
+
+step:cat <<EOF > /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+EOF
+step:sudo yum install -y kubelet kubeadm kubectl
+step:systemctl enable kubelet
+step:systemctl start kubelet
+set hostname or nodes
+step:sudo hostnamectl set-hostname master-node
+step:sudo hostnamectl set-hostname worker-node1
+step:sudo vi /etc/hosts
+step:192.168.1.10 master.phoenixnap.com master-node
+192.168.1.20 node1. phoenixnap.com node1 worker-node
+
+step:sudo firewall-cmd --permanent --add-port=6443/tcp
+sudo firewall-cmd --permanent --add-port=2379-2380/tcp
+sudo firewall-cmd --permanent --add-port=10250/tcp
+sudo firewall-cmd --permanent --add-port=10251/tcp
+sudo firewall-cmd --permanent --add-port=10252/tcp
+sudo firewall-cmd --permanent --add-port=10255/tcp
+sudo firewall-cmd --reload
+
+sudo firewall-cmd --permanent --add-port=10251/tcp
+sudo firewall-cmd --permanent --add-port=10255/tcp
+firewall-cmd --reload
+
+
+
+
+ansible install
+
+step:sudo yum install epel-release
+step:sudo yum install ansible
+step:sudo vi /etc/ansible/hosts
+step:ssh root@your_server_ip
+step:[servers]
+host1 ansible_ssh_host=192.0.2.1
+host2 ansible_ssh_host=192.0.2.2
+host3 ansible_ssh_host=192.0.2.3
+step:sudo mkdir /etc/ansible/group_vars
+step:sudo nano /etc/ansible/group_vars/servers
+step:ansible -m ping all
+step:ansible -m ping servers
+step:ansible -m ping servers
+step:ansible -m ping host1
+step:ansible -m ping host1:host2
+step:ansible -m shell -a 'free -m' host1
+
+
+
+terraform install
+
+step: echo $PATH
+step:mv ~/Downloads/terraform /usr/local/bin/
+step:terraform -help
+step:terraform -help plan
+step:touch ~/.bashrc
+step:terraform -install-autocomplete
+step:open -a Docker
+step:mkdir learn-terraform-docker-container
+step:cd learn-terraform-docker-container
+step:terraform {
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 3.0.1"
+    }
+  }
+}
+
+provider "docker" {}
+
+resource "docker_image" "nginx" {
+  name         = "nginx"
+  keep_locally = false
+}
+
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "tutorial"
+
+  ports {
+    internal = 80
+    external = 8000
+  }
+}
+step:terraform init
+step:terraform apply
+step:docker ps
+terraform destroy
+
+
+Mmn3fZAp25fgECf
+
+user name Srkanthh
+
+dockerhub account : ganta246
+password:Srikanth435
+
+github account : ganta246
+password: Srikanth435
+
