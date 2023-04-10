@@ -1,0 +1,934 @@
+Devops interview questions freshers and experience
+
+
+
+1. Explain the /proc filesystem
+2.How many folders are you using in your branching strategy? And Why do they require?
+3.How is DevOps different from agile methodology?
+4.What is the difference between continuous delivery and continuous deployment?
+5.What is the role of AWS in DevOps?
+6.What are the benefits of using version control?
+7.What is Automation Testing?
+8.How to automate Testing in the DevOps lifecycle?
+9.What is the git command that downloads any repository from GitHub to your computer?
+10.Explain the difference between git fetch and git pull?
+11.What is Git stash?
+12.What is a merge conflict in Git, and how can it be resolved?
+13. Explain some basic Git commands?
+14.Explain the master-slave architecture of Jenkins?
+15.What is Jenkinsfile?
+16.Explain the two types of pipelines in Jenkins, along with their syntax?
+17.How do you create a backup and copy files in Jenkins?
+18.Explain how you can set up a Jenkins job?
+19.How does chef-apply differ from chef-client?
+20.What is an Ansible role?
+22.How is Ansible different from Puppet?
+23.Explain the architecture of Docker?
+24.What are the advantages of Docker over virtual machines?
+25.What are the commands used to create a Docker swarm?
+26.What is a Dockerfile used for?
+27.Explain the differences between Docker images and Docker containers?
+28.How do you create a Docker container?
+29.What are the cloud platforms that support Docker?
+30.What are active and passive checks in Nagios?
+31.Explain virtualization with Nagios?
+32.what is git?
+33.what is github?
+34.difference types of version control systems?
+35.what is different between gi and github?
+36.what is a git repository?
+37.what are the advantages of using git?
+38.what language used to git?
+39.How can you initalize a repository in git?
+40.what does git pull origin master do?
+41.what does the git push command do?
+42.difference between git fetch and git pull?
+43.what does git clone do?
+44.what is git stash?
+45.what is the use git push command?
+46.what is the git directory?
+47. difference between git pull request and branch?
+48.How does git work?
+49.how does git stash?
+50.What is a version control system (VCS)?
+51.What are the benefits of using a VCS?
+52.What is the difference between Git and SVN?
+53.What is virtualization?
+54. What is a hypervisor?
+55.What are some standard virtualization technologies used in DevOps?
+56.What is virtualization, and how does it connect to DevOps?
+57.What are the benefits of using virtualization in DevOps?
+58.Why DevOps has become famous?
+59.What is the use of SSH?
+60.What is Continuous Integration (CI)?
+61.Explain the different phases in DevOps methodology?
+62.How does AWS contribute to DevOps?
+63. How does HTTP work?
+64. In terms of development and infrastructure, mention the core operations of DevOps?
+65. What are some technical and business benefits of DevOps work culture?
+66. Name some of the most important DevOps tools?
+67. What is CI? What is its purpose?
+68. Name three important DevOps KPIs?
+69. What is the difference between continuous deployment and continuous delivery?
+70. What is DevOps? Is it a tool?
+71. What are the core operations of DevOps in terms of development and infrastructure?
+78.Mention what the key aspects or principle behind DevOps are?
+79.Explain how “Infrastructure code” is processed or executed in AWS?
+80.Explain which scripting language is most important for a DevOps engineer?
+81.List out some popular tools for DevOps?
+82.What are the key components of DevOps?
+83.What is the build?
+84.What are containers?
+85.What is Continuous Delivery?
+86.What is Git?
+87.What is meant by Continuous Integration?
+88.What are the key elements of continuous testing?
+89.What is the use of Ansible?
+90.What is a Virtual Private Cloud?
+91.What is Docker?
+92.What is a Docker image?
+93.How will you launch a browser using WebDriver?
+94.Which Source Code Management (SCM) tools does Jenkins support?
+95.What is the use of Continuous Monitoring?
+96. What is Sudo in Linux?
+97.Explain the benefits of using version control?
+98.What are Playbooks in Ansible?
+99.What is the Ansible module?
+100.What is the role of configuration management in DevOps?
+101.How to automate Testing in the DevOps lifecycle?
+102.What is the git command that downloads any repository from GitHub to your computer?
+103.Explain the difference between git fetch and git pull?
+104. Explain the concept of branching in Git?
+105.What is the difference between Git Merge and Git Rebase?
+106.What Is Load Balancing?
+107.How do all DevOps tools work together?
+108.What is the difference between Monolithic, SOA and Microservices Architecture?
+109.How to use Docker with multiple environments?
+110.How is Git rebase different from Git merge?
+111.What is Jenkins Pipeline?
+112.Explain Continuous Delivery?
+113.Explain Continuous Monitoring?
+114.What are the top 10 DevOps tools that are used in the industry today?
+115.Which scripting tools are used in DevOps?
+116.How is DevOps different from Agile / SDLC?
+117.Which are the top DevOps tools? Which tools have you worked on?
+118.Mention some of the core benefits of DevOps?
+119.Explain the different phases in DevOps methodology?
+120. How does AWS contribute to DevOps?
+121.What are some technical and business benefits of DevOps work culture?
+122.Describe branching strategies you have used?
+123.Explain some basic Git commands?
+124.How will you know in Git if a branch has already been merged into master?
+125.Explain the difference between a centralized and distributed version control system (VCS).?
+126.What is the difference between Git Merge and Git Rebase?
+127.Explain the difference between git fetch and git pull?
+128.What is meant by Continuous Integration?
+129.Why do you need a Continuous Integration of Dev & Testing?
+130.Explain how you can move or copy Jenkins from one server to another?
+131.. Explain how can create a backup and copy files in Jenkins?
+132.Mention some of the useful plugins in Jenkins?
+133.How will you secure Jenkins?
+134.What is the Blue/Green Deployment Pattern?
+135.How will you approach a project that needs to implement DevOps?
+136. Explain some common practices of CI/CD?
+137.How to automate Testing in DevOps lifecycle?
+138.What are the key elements of Continuous Testing tools?
+139.How to launch Browser using WebDriver?
+140.What is the difference between Asset Management and Configuration Management?
+141.How can I set deployment order for applications?
+142.How do I turn the auto-deployment feature off?
+143.How does automate Testing work in the DevOps lifecycle?
+144.Explain Main Configuration file of Nagios and its location?
+145.What is meant by Nagios backend?
+146. Justify the statement — Nagios is Object-Oriented?
+147. What are containers?
+148.What is Docker image?
+149. What is Docker container?
+150.What is Dockerfile used for?
+151.How to stop and restart the Docker container?
+152. How far do Docker containers scale?
+153.What platforms does Docker run on?
+154. How to check for Docker Client and Docker Server version?
+155.What language is used in Git?
+156.List the Advantages of Ansible?
+157.What is the concept of sudo in Linux?
+158.What is docker-compose?
+159.What are the platforms does Docker run on?
+160.Differentiate  between Maven, Ant, and Jenkins?
+161.Which are the core operations of DevOps in terms of  Infrastructure and Development?
+162.What are the SCM tools that Jenkins supports?
+163.Mention any three advantages of Jenkins?
+164.What are the types of HTTP requests?
+165.What do you understand from the term build?
+166.What is the role of plugins in DevOps?
+167.What are handlers in Ansible?
+168.Mention some of the important NetWork tools?
+169.How would you handle the merge conflicts in git?
+170.Differentiate between Agile and DevOps?
+171.What do you mean by Docker Client?
+172.How to list the stopped containers?
+173.How would you do tagging in git?
+174.What are the top Git commands?
+175.What do you mean by Nagios Log Server?
+176.What is a namespace in Kubernetes?
+177.Explain about YAML?
+178.What is Image Tag?
+179.What is git fetch?
+180.What is git push?
+181.What is continuous deployment?
+182.Explain how DevOps is helpful for developers?
+183.Why has DevOps gained popularity in software delivery recently?
+184.Define a typical DevOps workflow?
+185.What are the core operations of DevOps?
+186.What role does the SCM team play in DevOps?
+187.What are some common practices of CI/CD?
+188.When is the best time to implement CI/CD?
+189.What are some common CI/CD servers?
+190.What are the differences between Agile, Lean IT, and DevOps?
+191.What functions does version control serve? 
+192.What does a cloud service mean?
+193.Why does an organization need to manage its workload?
+194.What are the security aspects of the cloud?
+196.How do you explain in business perspective about Dev-Ops Culture, IT Automation, Dev-Ops Lifecycle to the customer?
+197.How do you implement Dev-Ops in a real-time environment?
+198.Explain Dev-Ops Tools and how do you use them in your project?
+199.Explain in a business perspective about Dev-ops tools as a step-by-step process to the customer?
+200.Explain any one source code management tool (Git or SVN or CVS) and what is the purpose?
+201.Explain any one continuous integration tool (Jenkins or TeamCity or Bamboo) and what is the purpose?
+202.Explain the deployment process using the webserver (Apache Tomcat or WebLogic)?
+203.Explain the Configuration Management tool used in Dev-Ops (Chef, Puppet, Ansible) and what is the purpose?
+204.Explain anyone’s code analysis tools (Sonar) and what is the purpose of this tool?
+205.Explain ELK and what is the purpose of this tool?
+206.Explain one monitoring tool and the purpose of this tool (Nagios)?
+207.Explain anyone collaboration tools like “Jira” and what is the purpose of this tool?
+208.Explain the burndown chart?
+209.Explain Docker and what is the purpose of this tool?
+210.Explain DevOps Metrics and in-depth knowledge of business case creation and competitive analysis?
+211Tell me anyone public cloud architecture “AWS or Azure”?
+212.What are the benefits and what are the services available in Azure?
+213.Explain in detail about IAAS, PAAS, & SAAS and how do we use each service in real-time?
+214.How do you present Dev-Ops Metrics, Reports in a dashboard to the client?
+215.Final question As an automation consultant how do you approach the customer to use the Dev-Ops for their project and how do they get benefited and advantages?
+216.First and foremost questions, Rolls, and Responsibilities. In short, your daily work approach?
+217.The version of VCS you are using?
+218.How do you create a new user in VCS?
+219.Through which client, have you installed/using VCS? Is it, Apache or some other mode? Explain?
+220.Do you commit DB scripts with your source code as well?
+221.What according to you is a Release? And are you involved in the Release process?
+222.How do you create a Branch? And can developers create their own branches?
+223.What branching strategy are you following? Explain?
+224.How many folders are you using in your branching strategy? And Why do they require?
+225.After Release 1, and while Release 2 is in the process I have come up with a P1 issue that should be fixed up right away. What is the strategy that you follow up in resolving it?
+226.What are Hotfix and Bugfix?
+227.What is the Feature Branch? And its importance?
+228.How to take back up and load the Repository? What’s the command?
+229.Do U Merge the code? What are the Merge conflicts that you came across?
+230.Can you retrieve a set of revisions into a particular file and display it?
+231.List out the Admin commands that you have used in your project?
+232.Have you written, Batch scripts? If yes in what case did you wrote it?
+233.How to send an email notification after my commit is successful?
+234.I have a scenario where every developer works on his own branch, Every developer develops his application code with different versions of the software patch for example., Developer 1 works on Hibernate, Developer2 works on Spring, Developer 3 works on Struts. So as an SCM admin how do you maintain dependencies for these versions?
+235.When do you move the codebase to Tag? After production or Before?
+236.The version of the Build Tools you are using?
+237.How do you pass parameters @ runtime?
+238.Difference between ear, war, and jar?
+239.Where do you deploy the artifact in Tomcat?
+240.What is the Maven script? How is it different from Ant?
+241.The version of Jenkins?
+244.What is a Master/Slave configuration? How do you configure it?
+243.What is the executor? And its importance?
+245.How many ways can you create a project?
+246.How do you configure a project?
+247.I have my codebase in two VCS, one is in GIT and the other is in SVN.
+248.How do you check out the code from these at a time in Jenkins?
+249.Can I commit a codebase in Jenkins?
+250.What is LDAP and how do you configure it?
+251.How do you create users?
+252.What is the Freestyle project and a Maven Project?
+253.Can I create or call a Maven script in the Freestyle project?
+254.How do you create nightly builds? What is the Cron Syntax?
+255.What is CI and CD Job? Explain
+256.If every hour CI job gets triggered don’t you think it leads to space constraints?
+257.How does my CD Job pick up the latest stable CI Job? Do you manually retrieve it or Do you pass any parameters to it?
+258.What are the plugins U have used? List a few?
+259.How do you integrate Junit in Jenkins?
+260.Have you involved in static code analysis? If Yes, in what way have you implemented it?
+261.What is the Sonar cube? How do you configure it?
+262.I have 3 Jobs to get triggered, 1st Job from Machine 1, 2nd Job from Machine 2 should get triggered. How do you configure it?
+263.What are the Upstream and Downstream Jobs?
+264.What is the Pipeline concept? How do you achieve it? When it is useful?
+265.What are the Prebuild activities and Post Build activities?
+266.How can I send an email to 50 developers at a time? How do you configure it?
+267.What is the Jenkins workspace?
+268.How do you back up the Jenkins Jobs?
+269.How can I track the error if my build fails?
+270.I have a Release1 Parent Build called R1.1 which contains 100 child builds R1.1.1, 1.2, R1.1.3, R1.1.4, ……….R1.1.100. Now, for Release 2, R2.1 should get all the child builds i.e., R1.1.1  to  R1.1.100. Therefore, without any human error, all my child builds version numbers of Release 1 should automatically change to R2.1.1 R2.1.2, and so on. How is this achieved?
+271.Why Shell scripting? Why is it is used for?
+272.Which shell are you are using? And how many types of Shells are there?
+273.If Ant can deploy the artifacts what is the need of Shell?
+274.What is the difference between Shell and Powershell?
+275.Few questions on commands like “grep, sed, touch, head, tail, username -a username -r, PID, and ppid, to kill a process, chmod, awk, alias
+276.What is Shebang in the Shell script? And it’s the syntax?
+278.Execute shell script with command-line properties?
+279.What is $0,$1,$*,$#,$$,$?,$@?
+280What the deployment script you wrote can you explain?
+281.How do you establish a connection with your remote server, Command?
+282.How to copy binaries to the remote server, Command?
+283.How to bypass validation every time you copy binaries? How do you achieve it?
+284.What is the port number of your application?
+285.What is the port number of Sonar?
+286.Port number of MySql?
+287.Where do you save up the information about the challenges you have faced in every release? Do you maintain Wiki or Knowledgebase some kind??
+288.In how many ways, can you create a file and access it?
+289.What is Catalina.jar, Catalina_Home and What is JSS in Tomcat?
+290.Can you explain your day-to-day activities as a DevOps Engineer?
+291.Difference between Continuous Delivery and Continuous Deployment?
+292.How do you take Jenkins Backup?
+293.How do setup Environments(Dev,QA,UAT,Pre-production,Production)
+in devops?
+294.What is Continuous Integration & Continuous Deployement(CI&CD)?
+295.What is Continuous Integration(CI)?
+296.What is Continuous Deployment(CD)?
+297.What kind of issues you are facing in Jenkins?
+298.What are the important tags in POM? The XML file, Can you explain some tags?
+299.What is the DevOps pipeline, Can you explain it?
+300.Can you tell me some important plugins in Jenkins and what do you know?
+301.How to integrate Jenkins with GIT, MAVEN, SONARQUBE, NEXUS, TOMCAT?
+302.How to create a job explaining in step-by-step details(General, SCM, Build Triggers, Build Actions, PostBuild Actions)?
+303.We have to remember all configuration files about(Git, MAVEN, JENKINS, SONARQUBE, NEXUS, TOMCAT, NAGIOS, APACHE)?
+304.We have to remember all ports including(JENKINS, SONARQUBE, NEXUS, TOMCAT, NAGIOS, APACHE)?
+305.Where will you get issues while merging branches & how will you resolve merge conflicts?
+306.Jenkins follows which architecture?
+307.Which strategy you are following for deployment release into the production server?
+308.What are the issues/errors you are facing regularly or recently in Jenkins?
+309.What is the life cycle of maven? What are the issues/errors you are facing regularly or recently in maven?
+310.How to integrate Maven with Jenkins?
+311.Which domain are you working for your company?
+312.What is AWS Cloud Formation? Can you elaborate on that? Why we use it?
+313.What are the templates in cloud formation?
+314.What are the parameters that are mandatory in AWS cloud formation templates?
+315.Tell me about autoscaling?
+316.Which services should I use to get reliability, robustness, and admirability for my application?
+317.What is discard capacity in Autoscaling? ( i didn’t understand what d question is)
+318.What are the min-max instances in autoscaling configuration?
+319.What is ELB? What is the benefit of elb?
+320.What is the health check?
+321.I have enabled port no 80 while creating an instance in SG on my IP, even though am not getting my website, I have contacted AWS support on that, they tell me to check your VPC configurations, what should I do for that,
+322.what settings do I need to check?
+323.What is user data in ec2?
+324.Why we use user data in the cloud formation template while creating an ec2 instance?
+325.What is Elastic Bean Stalk?
+326.Ec2 is there for hosting, then y we use elastic beanstalk?
+327.What is a managed platform?
+328.What is custom resourcing in AWS? What is its security in AWS?
+329.What your elastic block storage? Can you elaborate on it?
+330.What is s3? What is versioning? What is lifecycle management?
+331.What is AWS glacier?
+332.Which language worked on?
+333.For the last 6 months, what is your most challenging project? Explain?
+334.What is a cloud front?
+335.Have you deployed any web applications in AWS? What did you deploy?
+336.Did you deploy any real-time projects?
+337.What is Autoscaling? What type of auto-scaling did you use programmatic r manual auto-scaling? What are the things to do?
+338.How do you do auto-scaling? What parameters did you use an API? What API did you use in Autoscaling?
+339.What is a cloud front? Did you configure the cloud front in AWS?
+340.What kind of security did you work on AWS?
+341.Have you done hybrid integration?
+342.What is route 53? What is the use and how to work with it?
+343.What is CIDR (Classless Inter-Domain Routing)?
+344.Explain the Maven Build Lifecycle?
+345.What is convention over configuration? How does maven use it?
+346.What are the phases of the Build Lifecycle and Clean life cycle? What happens in each phase?
+347.Explain maven dependency
+348.When does the maven use external dependency?
+349.What is a Build profile and what are the different types of Build Profiles?
+350.What are the different types of Maven Repositories? (or) they may ask the difference between types of maven repositories
+351.what is the sequence in which maven search for dependencies?
+352.What is the difference between snapshot and version in maven?
+353.What are system dependency and transitive dependency in Maven?
+354.How profiles are specified in maven?
+355.Explain all the dependency scopes in Maven?
+356.What is the difference between GIT and SVN?
+357.Advantages of using GIT?
+358.What are the STAGING area and INDEX in GIT?
+359.What is the difference between GIT PUSH and COMMIT? When they are used?
+360.What is GIT STASH?
+361.How do you create a branch in GIT?
+362.How do you merge code from branch to master in GIT?
+363.How do you confirm if the GIT branch has merged into master?
+364.What is HEAD in GIT? How many HEADS you can create in GIT?
+365.What does “git config” do?
+366.Learn about all the commands in GIT. The interviewer may ask indirectly about how can u achieve one scenario. You should be able to tell him the command to use.
+367.What is the purpose of branching in GIT? What is the common branching pattern in GIT?
+368.How can u resolve conflict in GIT? The interviewer may also ask you to explain one scenario of how you resolved conflicts in GIT in your current project.
+369.The major difference between the Application and the Web server?
+370.How many servers do u have? As you cannot deploy a War file in Apache Tomcat what other server do u use?
+371.Does U have 2 releases scheduled today? one is in the QA phase and the other is in the Production phase?
+378.he one in the Production phase is getting errors and you cannot move further what will you do?
+379.Is it possible to move a War or Ear file from the QA stage to UAT and Production stage?
+380.How will move a War or Ear to UAT and Production environment which completed a successful
+381.Can we replace TestNG with Junit? If yes then give some good points.
+382.Use of git detach command?
+383.Use of Git reset head command?
+384.committed 2 sides, you want the branch to be reverted to the previous one? how?
+385.Master-slave configuration and how do you connect to Jenkins from the slave machine?
+386.Build Pipelines?
+387.I have two Jobs, I want the first job should get executed by the Master and the other Job from the slave. How to achieve this?
+388.Difference between a freestyle project and a Maven-based project?
+389.LDAP configuration?
+390.What’s the difference between LDAP and Email notification?.
+391.How to auto-deploy a war file into tomcat? (process)
+392.Make use of the SCP command in the shell script to copy the war file to the tomcat web apps directory?
+393.what would you do if your servers are on Linux machines and you are working on the windows machine when you are doing automation and deployment?
+394.I will make use of pscp and plink to do the deployment and perform the actions on the Linux server from windows
+395.why do use Jenkins instead of ANT as both tools are used for the same purpose as building artifacts and deploy those to servers?
+396.How you will deploy the same .war file on multiple servers?
+397.What is the process you will follow to give the installable file to the client?
+398.How do you convert .war file into .msi file(installable file)?
+399.How to run the file.sh shell script in ant?
+400.How to call a target of another file within the different files?
+401.What is the difference between Jenkins and Hudson?
+402.What SCM tools does Jenkins support
+403.How can you tell what version of Jenkins you are using?
+404.What is continuous integration in Jenkins?
+405.What are the pre-requisites for using Jenkins?
+406.How can you move or copy Jenkins from one server to another server?
+407.Commands to use to start Jenkins manually
+408.What are the most useful plugins in Jenkins?
+409.How to create a Jenkins job and what are the types?
+410.What are the two components that Jenkins mainly integrates with?
+411.What is the default session timeout value in Jenkins and How can you increase the session timeout value?
+412.Explain about Jenkins security mechanism?
+413.How can you pass parameters from one job to another job in Jenkins?
+414.Explain about build pipeline in Jenkins?
+415.How can someone execute the jobs in Jenkins without having permission to execute the job?
+416.How to re-execute a parameterized build job without entering the parameter values when the job fails? Note:- Job should not ask for parameters and it should run with the values of parameters that you entered during the previous execution
+417.How to install plugins in Jenkins?
+418.How can configure slaves/nodes in Jenkins?
+419.How to run jobs in slaves?
+420.How you are Jenkins in your project?
+421.How to configure a build/project in Jenkins from scratch?
+422.How to run builds periodically?
+423.Define a typical DevOps Work Flow?
+424.How you handle the internal and exteral dependencies?
+425.What all Virtualization Tools?
+426.What all major Containerization Tools?
+427.What all major OS Installation Provisioning?
+428.What all major Configuration Management Tools?
+429.What all major Provisioning Tools?
+430.What all major Monitoring, Alerting, logging and Trending Tools?
+431.What all major Test Automation Tools?
+432.What all major unit testing Tools?
+433.What all major functional testing Tools?
+434.What all major code coverage tools?
+435.What all major code review tools?
+436.What all major Continuous Delivery Tools?
+437.What all major Build Tools?
+438.Provide list of most commonly used compilers?
+439.Provide list of most commonly used scripting laguages? Perl vs Python when to use what?
+440.What all major Collaboration Tools?
+441.What all major planning tools?
+442.How you would be choosing the DevOps tools?
+443.Why virtualization is gaining popularity?
+444.Provide Types of Virtualization?
+445.What is Hardware or Server Virtualization?
+446.Explain Network virtualization?
+447.Expalin Storage Virtualization?
+448.Explan Application Virtualization?
+449.What is ESX and ESXi? Explain the ESX architechture?
+450.How to VM on ESXi server using vSphere client?
+451.How to deploy a VM using template and CLI?
+452.How you can automate the VM deployment in an ESX enviroment?
+453.What are major Diffrences between ESX and Hyper-V?
+454.What is “Cloud”?
+455.What is cloud computing?
+456.What are the important Characteristics of cloud computing?
+457.How can you use the cloud?
+458.What is SaaS (Software-as-a-Service)?
+459.What is PaaS (Platform-as-a-Service)?
+460.What is IaaS (Infrastructure-as–a-Service)?
+461.Diffrentiate Private Cloud, Public Cloud, Hybrid Cloud and Community Cloud?
+462.What are the Benefits of cloud computing?
+463.What are the Risks/Challenges related to Cloud Computing?
+464.Then there may be some questions arround AWS / Azure
+465.What is AWS?
+466.How does auto scaling work?
+467.How to access and manage cloud infrastructure using AWS?
+468.Explain AWS infrastcrure?
+469.Compare AWS and Azure?
+470.How you create a new image using vagrant?
+471.What is Ansible?
+472.What is the diff between vagrant amd Ansible?
+473.What is Ansible Playbook?
+474.What is Ansible tower?
+475.What is Ansible Inventory?
+476.How to install and configure Ansible on Control Machine?
+477.What is Ansible modules?
+478.How to use Ansible from the command line?
+479.How does Ansible work?
+480.What are the Building blocks of Software Configuration Management (SCM) system?
+481.What is Version Control System (VCS)?
+482.Why use version control?
+483.What are the Types of Version Control Systems?
+484.How you would choose a Version Control System?
+485.Explain Git Architecture?
+486.Explain Git branching model?
+487.What's Inside .git directory?
+488.How you install and configure Git?
+489.What is git hooks, how to use them?
+490.What git version, client you have used?
+491.How to create a repo?
+492.How you add and commit to a repo?
+493.How you push and gets update to\from a reomote repo?
+494.How you create, delete and rename a branch?
+495.How you merge a branch to other?
+496.How you tag, what are the types of tags you have?
+497.What is The make utility
+498.What is a Makefile?
+499.How to craete and Write Makefile?
+500.What is Apache Maven
+501.How Maven works?
+502.How you install and configure Maven?
+503.What is POM?
+504.How you create a Maven Project 236
+505.Explain Maven Build lifecycles?
+506.Explain Maven Repositories?
+507.Scritping excercise in Python
+508.What can Jenkins do? it benefits?
+509.Why Jenkins as CI tools what all alternative you have?
+510.How to design Distributed build System using Jenkins?
+511.How to install Jenkins Masters?
+512.Explain Jenkins – Administration?
+513.How to Set up a Slave Node?
+514.Explain enkins - Plugins, Provide some of the most commonly used plug-ins?
+515.How to setup a job in Jenkins?
+516.Explain Jenkins Job - Freestyle Project?
+517.Explain Jenkins Job – MultiJob Project?
+518.Explain Jenkins Job – Pipeline Project 310
+519.How to configure notifications in Jenkins?
+520.How does Jenkins fail or pass the builds?
+521.How does Log Parser work how to enable?
+522.Explain Backup and restore using Jenkins?
+523.How you move Jenkins master from one server to another server?
+524.Explain Security in Jenkins?
+525.What is the difference between Continuous Delivery and Deployment?
+526.Explain Benefits of Continuous Delivery?
+527.Explain Benefits of Continuous Deployment?
+528.Why is there a need for DevOps and cloud computing?
+529.Which DevOps tools are the most widely used?
+530.What is the role of a DevOps Engineer?
+531.Why should DevOps use AWS?
+532.How does AWS DevOps use CodeBuild?
+533.What does AWS DevOps’ CodePipeline do?
+534.How does IaC work with AWS?
+535.Tell me about your favorite DevOps tools and why you like using them?
+536.CHow do you implement continuous integration and continuous deployment (CI/CD) in a Microsoft environmentan you explain the DevOps methodology and its benefits?
+537.How do you implement continuous integration and continuous deployment (CI/CD) in a Microsoft environment?
+538.How do you monitor and troubleshoot application performance in a Microsoft DevOps environment?
+539.Can you describe your experience with source control systems such as Git and TFS?
+540.How do you manage and secure secrets, such as API keys and passwords, in a DevOps environment?
+541.How do you implement infrastructure as code (IaC) in a Microsoft environment using tools such as Terraform or ARM templates?
+542.Can you describe your experience with containerization and container orchestration, such as Docker and Kubernetes?
+543.How do you ensure that your applications are scalable and highly available in a DevOps environment?
+544.Describe how “Infrastructure code” is executed or processed in AWS?
+545.Explain the use of Test Automation in DevOps.
+546.Can you describe your experience with cloud platforms, such as Azure, and cloud migration?
+547.Explain the difference between the Azure DevOps Services and Azure DevOps Server?
+549.What are the business advantages of DevOps?
+550.Explain a case where DevOps can be utilized in industry/ real-life?
+551.Explain your intelligence and expertise on the software developing side and the technical operations of an association you have operated with in the past?
+552.List the advantages of Azure DevOps Services?
+553.an you describe your experience with automation tools such as Ansible, Chef, or Puppet?
+554.Explain the anti-patterns of the DevOps?
+555.Describe the branching approaches you have used?
+556.How do you revert a commit in Git that has previously been launched and made public?
+557.Explain your expertise on DevOps projects as a DevOps Engineer?
+558.What are the primary components for uniting Azure DevOps and Bitbucket?
+559.As a DevOps Engineer explain relation between Hudson and Jenkins?
+560.List some most suitable practices which should be observed for DevOps success?
+561.How do you shift a file from your confined system to the GitHub repository working Git?
+562.Describe how you can take the current color of the contemporary screen on the Ubuntu desktop?
+563.In how many steps you can place the Jenkins?
+564.How to obtain variable titles in Ansible?
+565. As a DevOps Engineer, you are having various Memcache servers, in which one of the Memcache servers collapses, and it has your data, will it try to get key data from that one abandoned server?
+566.What is Blue/Green Deployment Pattern?
+567.Describe Pair Programming with connecting to DevOps as a DevOps Engineer.
+568. Explain the docker motor and docker form?
+567.What are your expectations from a career as a DevOps Engineer?
+568.Do you have any kind of certification to expand your opportunities as a DevOps Engineer?
+569.Do you have any prior experience serving in an identical industry like ours?
+570.Why are you preparing for the DevOps Engineer position in our company specifically?
+571.Do you know what a Vagrant is? 
+572.What are the various phases of a DevOps lifecycle? 
+573.What functions does version control serve? 
+574.What does Continuous Testing mean? 
+575.It increases the level of automation.
+576.What are you most passionate about when it comes to DevOps?
+577.What are you hoping to gain from your next DevOps role?
+578.Walk me through your experience up to this point working with DevOps?
+579.What DevOps tools are you most comfortable using?
+580.Why Are Configuration Management Processes And Tools Important?
+581.How We Can Make Sure New Service Is Ready For The Products Launched?
+582.How Devops Is Helpful To Developers ?
+583. What Are The Advantages Of Devops With Respect To Technical And Business Perspective?
+584.Name The Popular Scripting Language Of Devops ?
+585.What is trunk-based development?
+586.What is Gitflow, and how does it compare to trunk-based development?
+587.How long should a branch live?
+588.How do CI and version control relate to one another?
+589.What’s the difference between continuous integration, continuous delivery, and continuous deployment?
+590.What are the most important characteristics in a CI/CD platform?
+591.What is the build stage?
+592.What’s the difference between a hosted and a cloud-based CI/CD platform?
+593.How long should a build take?
+594.Can you name some deployment strategies?
+595.What happens when a Linux System boots, till you get a login prompt?
+596.What happens when you type ls on terminal?
+597. Explain Linux Inodes?
+598.When I get a “filesystem is full” error, but “df” shows there is free space?
+599.What are the performance tools you would use on Linux Machine
+600.Explain Kernel Space and User Space?
+601.Explain Kernel Memory Management?
+602.Explain Linux Concurrency and Race Conditions ?
+603. Explain STACK and HEAP in Operating System ?
+604. Explain Memory Leak ?
+605.Explain Load Average ?
+606.What happens when you try to curl to website ?
+607.Is it possible to move or copy Jenkins from one server to another? How?
+608.Mention the technical challenges with Selenium?
+609.Explain the working of Ansible?
+610.Explain the Sudo concept in Linux?
+611.Talk about Nagios Log server?
+612.Can you tell me about a time you worked on a project with a group? What was the outcome?
+613.Can you discuss your experience using analysis tools?
+614. What is AWS’s role in DevOps?
+615.List the top three DevOps KPIs?
+616.What exactly is a Blue/Green Deployment Pattern?
+617.Describe how to copy files and create backups with Jenkins?
+618.What is the difference between git fetch and git pull?
+619. What types of testing does Selenium support?
+620. Explain what is ‘snapshot’ in Git A snapshot in Git is a backup copy of each version Git stores in a repository and it’s an incremental backup copy. And are synonymous with “commits”. The git commit command captures a snapshot of the currently staged changes in the project?
+621.Explain the difference between Git rebase and Git merge Rebasing and Merging are two options to apply changes from one branch into another one and they both will produce the same result at the end?
+622.Which is the CLI commands can be used to rename files in GIT Open terminal (Linux) Change the current working directory to the local repository on your system?
+623.What are the differences between Git pull and Git fetch Git Pull and Git Fetch are two most used and important commands in Git?
+624.Explain the Jenkins File Jenkinsfile is a text file that contains the definition of a Jenkins Pipeline?
+625.What is Kubernetes?
+626.What are K8s? 
+627. What is orchestration when it comes to software and DevOps? 
+628.How are Kubernetes and Docker related?
+629.What are the main differences between the Docker Swarm and Kubernetes?
+630.What is the difference between deploying applications on hosts and containers?
+631.What are the features of Kubernetes?
+632.What are the main components of Kubernetes architecture?
+633.Explain the working of the master node in Kubernetes?
+634.What is the role of Kube-apiserver?
+635.What does the node status contain?
+636.What is a pod in Kubernetes?
+637.What is the job of the kube-scheduler?
+638.What is a cluster of containers in Kubernetes? 
+639.What is the Kubernetes controller manager?
+640.What are the different services within Kubernetes?
+641.What is ClusterIP?
+642.What is the LoadBalancer in Kubernetes? 
+643.Give examples of recommended security measures for Kubernetes?
+644.What is Kube-proxy? 
+645.How can you get a static IP for a Kubernetes load balancer? 
+646.What do you understand by a node in Kubernetes?
+647.Can you brief on the working of the master node in Kubernetes?
+648.What are the different types of services in Kubernetes? 
+649.What is Container resource monitoring?
+650.Kubernetes cluster data is stored in which of the following?
+651.Which of the following are core Kubernetes objects?
+652.The Kubernetes Network proxy runs on which node?
+653. What are the responsibilities of a node controller?
+654.What are the responsibilities of Replication Controller?
+655. How to define a service without a selector?
+656.What did the 1.8 version of Kubernetes introduce?
+657.The handler invoked by Kubelet to check if a container’s IP address is open or not is?
+658.How do we control the resource usage of POD?
+659.What is the role of Load Balance in Kubernetes?
+660.How to get the central logs from POD?
+661.What service and namespace are referred to in the following file?
+662.How to run Kubernetes locally?
+663. What is Kubernetes Load Balancing?
+664.Can you explain the differences between Docker Swarm and Kubernetes?
+665.How to troubleshoot if the POD is not getting scheduled?
+666.How to run a POD on a particular node?
+667.What are the different ways to provide external network connectivity to K8?
+668.How do you explain in business perspective about Dev-Ops Culture, IT Automation, Dev-Ops Lifecycle to the customer?
+669.How do you implement Dev-Ops in a real-time environment?
+670.Explain Dev-Ops Tools and how do you use them in your project?
+671.Explain in a business perspective about Dev-ops tools as a step-by-step process to the customer?
+672.Explain any one source code management tool (Git or SVN or CVS) and what is the purpose?
+673.Explain any one continuous integration tool (Jenkins or TeamCity or Bamboo) and what is the purpose?
+674.Explain the deployment process using the webserver (Apache Tomcat or WebLogic)
+675.Explain the Configuration Management tool used in Dev-Ops (Chef, Puppet, Ansible) and what is the purpose?
+676.Explain anyone’s code analysis tools (Sonar) and what is the purpose of this tool?
+677.Explain ELK and what is the purpose of this tool?
+678.Explain one monitoring tool and the purpose of this tool (Nagios)?
+679.Explain anyone collaboration tools like “Jira” and what is the purpose of this tool?
+680.Explain the burndown chart?
+681.Explain Docker and what is the purpose of this tool?
+682.Explain DevOps Metrics and in-depth knowledge of business case creation and competitive analysis?
+683.Tell me anyone public cloud architecture “AWS or Azure”?
+684.What are the benefits and what are the services available in Azure?
+685.Explain in detail about IAAS, PAAS, & SAAS and how do we use each service in real-time?
+686.How do you present Dev-Ops Metrics, Reports in a dashboard to the client?
+687.Final question As an automation consultant how do you approach the customer to use the Dev-Ops for their project and how do they get benefited and advantages?
+688.First and foremost questions, Rolls, and Responsibilities. In short, your daily work approach?
+689.The version of VCS you are using?
+690.How do you create a new user in VCS?
+691.Through which client, have you installed/using VCS? Is it, Apache or some other mode? Explain?
+692.Do you commit DB scripts with your source code as well?
+693.What according to you is a Release? And are you involved in the Release process?
+694.How do you create a Branch? And can developers create their own branches?
+695.What branching strategy are you following? Explain?
+696.What are Hotfix and Bugfix?
+697.What is the Feature Branch? And its importance?
+698.How to take back up and load the Repository? What’s the command?
+699.Do U Merge the code? What are the Merge conflicts that you came across?
+700.Can you retrieve a set of revisions into a particular file and display it?
+701.List out the Admin commands that you have used in your project?
+703.Have you written, Batch scripts? If yes in what case did you wrote it?
+704.How to send an email notification after my commit is successful?
+705.I have a scenario where every developer works on his own branch, Every developer develops his application code with different versions of the software patch for example., Developer 1 works on Hibernate, Developer2 works on Spring, Developer 3 works on Struts. So as an SCM admin how do you maintain dependencies for these versions?
+706.When do you move the codebase to Tag? After production or Before?
+707.What are the most important considerations when selecting DevOps tools for your organization?
+708.Walk me through some of the core benefits of DevOps on both the technical and business sides?
+709.In your experience, what are the most important KPIs for DevOps?
+710.Walk me through a typical DevOps lifecycle?
+711.Explain the benefits of Infrastructure as Code (IaC)?
+712.Can you explain the “shift left” concept? Have you had success implementing this in your current or previous role?
+713.What are the most important considerations when building out a DevOps process?
+714.How do you collaborate with software engineers in your current role?
+715.Do we even need Infrastructure Visualization Tools?
+716.What is Tomcat and why did it come into the picture?
+717.How to install Tomcat in Eclipse?
+718.Types of servers.
+719.About WAR and Web Container.
+720.Types of Batch and Script File used.
+721.What is Virtual Hosting?
+722.Securing Web Server.
+723.Start and Stop Apache Tomcat Server by commands
+724.What is Apache Tomcat?
+725.Why do we require Apache Tomcat?
+726.What is the default port for Apache Tomcat?
+727.What is the name of inbuilt Web Container in Tomcat?
+728.What are the types of batch file with the help of which we can Start and Stop Apache Tomcat Server?
+729.How can we configure Apache Tomcat in Java Eclipse IDE or explain the setup of Apache Tomcat Server?
+730.How do you Start and Stop Apache Tomcat using services?
+731.Which is the vital configuration file that is used in Apache Tomcat?
+732.How do you find which version of Apache Tomcat web server is running?
+733.Explain the types of connectors used by Apache Tomcat?
+734.Mention the configuration files of Catalina?
+735.What are the vital benefits of Running Tomcat as service?
+736.What is the deployment process of web application using the WAR file?
+737.What is the functionality of Tomcat Valve?
+738.What are the configured Tomcat Valve’s?
+739.I want to give another engineer production access safely?
+740.Looking for a speaker on a panel on "how to make the most of Jenkins", pm me if interested?
+741.What's the shortest you've ever stayed at a job?
+742.How do you initially upload your docker image to an ECR?
+743.Using Github Actions to Run Python Scripts and have Discord Bots as User Interfaces?
+744.Kubernetes vault first authentication token root?
+745.Demonstrating auto scaling with Docker and or Kubernetes for my Thesis?
+746.Can you describe the daily work of a devOps engineer?
+747.Can you explain which scripting languages you code in?
+748.Can you discuss your experience using analysis tools?
+749.Explain about the DevOps and key components of DevOps?
+750.What are the top reasons for using AWS for DevOps?
+751.Which languages and frameworks are compatible with AWS CodeBuild?
+752.Describe a use case for Amazon Elastic Container Service (ECS) in DevOps?
+753.What is AMI?
+754.Describe Infrastructure as Code (IaC) in your own words?
+755.How do containers communicate in Kubernetes?
+756.What’s your preferred version control system?
+757.What’s the difference between AWS CloudFormation and AWS Elastic Beanstalk?
+758.What configuration management tools are compatible with AWS?
+759.Explain how you solved a challenge related to creating a DevOps pipeline?
+760.Why is buffer important in AWS?
+761.Why can ECS be a better choice than Kubernetes?
+762.What’s the impact of microservices on operations?
+763.What are a few prerequisites that are useful for DevOps implementation?
+764.What are the three important DevOps KPIs?
+765.What is the role of configuration management in DevOps?
+766.What are some of the top Jenkins Plugins?
+767.What are the success factors for Continuous Integration?
+768.Which of the following was introduced in Kubernetes version 1.8?
+769.Which handler is invoked by Kubelet to check if a container's IP address is open or not?
+770.On which node does the Kube-proxy run?
+771.Explain different phrases used in devops?
+772.What role does configuration management play in DevOps?
+773.What do you mean by Continuous Integration (CI)?
+774.What does "DevOps toolchain" mean?
+775.What advantages does version control offer?
+776.What do you understand by DevOps pipeline?
+777.How can the auto-deployment feature be disabled?
+778.What does the Linux OS's sudo command stand for?
+779.Can you tell me about a release that went really wrong? How did you work to stabilize the environment? What did you learn from the experience?
+780.How do you judge success, in the context of yourself and the DevOps team as a whole?
+781.Why is GIT better than Subversion?
+782.What is the function of ‘GIT PUSH’ in GIT?
+783.What are the differences in ‘git remote’ & ‘git clone’?
+784.Mention some of the best graphical GIT clients for LINUX?
+785.What is the function of ‘git stash apply’?
+786.What is the use of ‘git log’?
+787.Is it to create an additional commit than to amend an existing commit?
+789.Tell me the difference between HEAD, working tree and index, in Git?
+790.What are the advantages of using Ansible?
+791.Ansible Playbooks vs Roles?
+792.What is inventory or host-file in ansible?
+793.Compare Ansible vs Chef vs Puppet?
+794.What is Ansible tower?
+795.How does Ansible work? Please explain in detail?
+796.Do we have any Web Interface/ Rest API etc for Ansible?
+797.What is the use of –start-at-task in ansible?
+798.What are the different components of Ansible?
+799.How to see all the inventory variables that are defined in the host?
+800.What is Red Hat Ansible?
+801.is Ansible an open source tool?
+802.What are Ansible server requirements?
+803.How to generate encrypted passwords for the user module?
+804.How can you connect to other devices within Ansible?
+805.What is ask_sudo_pass?
+806.Where is the unit testing available in Ansible?
+807.How to Migrate Jenkins from one machine to another?
+808. What are the commands you use to start Jenkins?
+809.What are the two components that you integrate with Jenkins?
+810.third party tool integration is very easy, GIT, Maven, Docker, Nexus, Sonarqube etc can be easily integrated?
+811.How to make sure that Jenkins build does not break before complete?
+812.How do you check Jenkins logs?
+813.How do you change the port number of Jenkins?
+814.I want to modify the JDK version from 1.8 to 1.10 in 1000 jobs? How do you do it?
+815.How did you set up, build and deploy for your Jenkins Job?
+816.How to install Jenkins?
+817.How will you define the post in Jenkins?
+818.What is Label?
+819.How do you upgrade Jenkins?
+820.How do you set-up the crontab?
+821.What is the difference between Web server & Application server?
+822. How do you deploy an application in Tomcat?
+823.How to clone a GIT Repository via Jenkins?
+824.Explain how to move or copy Jenkins jobs from one server to another?
+825.What is a parameterized job in Jenkins?
+826.How to Create a backup and copy files in Jenkins?
+827.Explain how you deploy a custom build of a core plugin?
+828.What are the various ways to schedule builds in jenkins?
+829.How to create a Multibranch pipeline in jenkins?
+830.What are the types of Projects or jobs available in Jenkins?
+831.What are the System Requirements for installation of Jenkins?
+832.What are the differences between Jenkins, Bamboo and TeamCity?
+833.What is the trigger? How the repository is being polled when a new commit is detected?
+834.What is Groovy in Jenkins?
+835.How many builds you store in your jenkins?
+836.How do you rotate logs with your jenkins?
+837.Do you know the maven life cycle?
+838.What is POM?
+839.What is the use of Maven Plugins?
+840.Tell me some differences between Ant & Maven?
+841.How to install Maven?
+842.What does the mvn clean do?
+843.Define Repository? What are the types of repositories?
+844.Name the three Build cycles of Maven?
+845.What is SNAPSHOT in Maven?
+846.What is a transitive dependency in Maven?
+847.What is all the information POM contains?
+848.Explain how to run the test classes in Maven?
+849.What is a Maven Artifact?
+850.What is Build Profile?
+851.How to run the clean plugin automatically during the build?
+852.What are the Configurations Possible in setting.xml file?
+853.Explain what would the "jar: jar" goal do?
+854.How can you build your project offline?
+855.What is virtualization?
+856.What are Registries and types?
+857.How to create a docker container from an image?
+858.What are docker volumes?
+859.What are the states of Docker containers?
+860.What is a Docker Swarm?
+861.Do Docker support for IPV6?
+862.What is a Dockerfile?
+863. What is Docker Compose?
+864.What is a Docker Namespace?
+865.What is Docker Machine?
+866.How to check versions of Docker Client and Docker Server?
+867.How do you access a container among 50 running containers? And how do you execute a command in it?
+868.How to Start, Stop and Kill a container?
+869.an you use JSON instead of YAML for ‘mycomposefile.yml’ in Docker?
+870.How is Docker different from other containerization methods?
+871.Can a container restart by itself?
+872.What about load balancing in Docker containers and hosts? How does it work?
+873.Do Apache Tomcat generate Log files? If yes name them?
+874.How do you justify the significance of Virtual Hosting?
+875.What are the check or log extent provided by Apache Tomcat?
+876.How is Apache Tomcat different from Apache Web Server?
+877.Which version of Apache have you worked on?
+878.What will happen if we have added “logLevel Debug” in httpd. conf file?
+879.What should we do if we want to know which users are reaching our site?
+880.How can we put a restriction to upload files on our web server?
+881.What is the significance of status code 403 and 404 in Apache Server?
+882.Apache runs as which user and what is the location of the main configuration file?
+883.What are some of the basic terminologies in Ansible?
+884.What is Ansible-doc?
+885.How can you disable cowsay?
+886.What are some of the differences between variable names and environment variables?
+887.Name some essential DevOps tools?
+888.What is CI? What is the purpose of CI?
+889.How is Nagios helpful?
+890.What role does AWS play in DevOps?
+891.What’s been your most challenging experience with deployment?
+892.What are you interested in learning to further your career?
+893.What is a complex system architecture you’ve conquered? How did you manage it?
+894.What need does DevOps fill in an organization?
+895.What drew you to DevOps?
+896.Our company runs almost entirely on Kubernetes, tell me about your Kubernetes experience?
+897.What’s your take on automation and what automation tools have you worked with?
+898.Which programming languages do you enjoy working with the most and why?
+899.In your experience, what is the most crucial initial step for a CI/CD transformation?
+900.What process do you go through to pick out a suitable tech or tool you need when the shelf tools aren't cutting it?
+901.What is the use of CodeStar? 
+902.What are post-mortem meetings in DevOps?
+903.What is pair programming?
+904.What is the use of CodeDeploy?
+905.What is InfrastructureConfiguration Which tools are useful for InfrastructureConfiguration?
+906.What is Continuous Monitoring?
+907.What services Azure DevOps Provides?
+908.What are the advantages of Azure DevOps ?
+909.Describe about azure DevOps ?
+910.Define Azure boards ?
+911.Differentiate between Git rebase, and Git merge?
+912.How many categories of Ansible are there in DevOps? What are they?
+913.What do you mean by playbooks in Ansible?
+914.Explain Active and Passive check in Nagios?
+915.What are the requirements for implementing DevOps?
+916.What are the advantages of utilizing a version control system (VCS)?
+917.What exactly is a merge conflict in Git, and how do you fix one?
+918.Explain the seven stages of a DevOps project?
+919.What do you love most about working as a DevOps engineer?
+920.How do you know if something fails in production?
+921.How can Configuration Management tools help with DevOps?
+922.How do agile & DevOps differ?
+923.What kind advantages will you see on implementing DevOps in software development?
+924.What are some benefits of a source/version control system?
+925.Explain a few types of testing
+926.What is SSH? And, why would you use it?
+927. What is configuration management? And, why is it important for DevOps?
+928.What KPIs can you measure against to understand DevOps success?
+929.What are some core benefits of DevOps?
+930.What does IaC (Infrastructure as Code) mean in relation to configuration management?
+931.How do you implement IaC using AWS?
+932.Can you elaborate on the core differences between DevOps and Agile?
+933.How do the DevOps tools all work together?
+934.What has led to the popularity of DevOps?
+935.What’s needed to make continuous integration effective?
+936.How have you used DevOps or its principles to solve a problem?
+937.How do you define observability, and what advice would you offer an organization working to improve the observability of its systems?
+938.What the key aspects or principles behind DevOps?
+939.Explain a few prerequisites that are useful for DevOps implementation?
+940.Which are the top DevOps tools? Which tools have you worked on?
+
+
+
+
+
+
