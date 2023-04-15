@@ -1,1 +1,104 @@
 
+master and slave using jenkins
+vim/etc/passwd password create
+vi sudo jenkins all all no passwd
+vim/etc/ssh/sshd_ config yes
+systemctl restart sshd
+systemctl status sshd
+slave1
+sudo useradd 
+sudo passwd
+vi sudo
+vim/etc/ssh/sshd_ config
+systemctl restart sshd
+systemctl status sshd
+active running
+master to slave connect
+su -jenkins
+ssh -copy-id jenkins@123.;344..44
+jenkins@ 123;34;56;78
+check hostname -i
+private ip addres success
+slave and master 
+su -jenkins
+ssh-keygen
+ssh -copy-id- jenkins@123;34;56;98
+jenkins @ 123;45;67;98
+host name -i
+private ip address
+
+poll scm
+
+
+create a job
+real time project
+freestyle project select
+ok click
+
+go to the source code management 
+git select and repository url
+paste
+go to the build trigger select to the poll scm
+*/******
+apply and save click
+code push repository
+ls
+vi file.txt this is a perpouse
+cat file.txt this is a again
+git add.
+git commit -m "poll scm"
+git push origin master
+build now click
+
+
+
+build periodically 
+
+
+create job real time project
+freestyle project select
+ok click
+go to the source code management
+git select and repository  url paste
+go to the build trigger  periodically select
+*/*****
+apply and save click build now sucessses
+
+
+webhook
+
+go to the github setting click add webhook click
+payload url paste
+application json
+just push the event selective and active add webhook click
+ls
+git pom.xml
+vi file.txt thjkl
+cat file.txtt l;[
+git status
+git add .
+git commit -m "webhook"
+git push
+build now click
+nexus integration using jenkins
+
+create job realtime project select pipeline
+ok click
+pipeline syntax 
+nexus artifact uploader 
+credentials 
+generate pipeline  click copy
+go to the build now click sucess
+sonarqube integration using jenkins
+create a job : realtime project
+go to the pipeline 
+pipeline syntax click
+sh .shell script select
+git select repository url paste
+credentials
+generate pipeline script copy go to the pipeline steps down paste
+go to the build now click
+sucess
+
+multi branch pipeline 
+create a job click : jenkins-repo
