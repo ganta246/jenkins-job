@@ -1,0 +1,111 @@
+pipeline {
+    agent any
+    stages {
+        stage('clone') {
+            steps {
+                checkout scmGit(branches: [[name: '*/DEV']], extensions: [], userRemoteConfigs: [[credentialsId: 'jenkins', url: 'https://github.com/ramhareesh/raviLogin.git']])
+            }
+        }
+        stage('build') {
+            steps {
+            sh ' mvn package
+           }
+           
+         stage('sonar and code quality ') {
+            steps {
+            sh ' mvn clean verify
+            }
+            stage('nexus') {
+            steps {
+            generate token
+            stage('tomcat') {
+            steps {
+            generate token copy and paste
+            
+       }
+       }
+         }
+}
+
+
+
+1. maven install and maven integration with using jenkins
+2.nexus install and nexus integration with using jenkins
+3. sonarqube install and sonarqube integration with using jenkins
+4.jenkins install and jenkins job run and monitor pipeline cl/cd
+5.jenkins multi branch pipeline job running and ocean plugin install and thinkback plugin install
+6. jenkins user role create
+7. docker install some commands using docker
+8. ansible install and using to node and module and arguments and variables and host patren and playbook packages install
+9. kubernetes install and using master node and worker node
+10. kubedm and kubelet kubectl install and manager node 4gb 2 core t2 mediam and worker node 1 gb 1 core managing kubernetes nodes
+11. tomcat install and tomcat deploy using jenkins
+
+docker commands
+
+
+image container using command
+
+
+docker run --name myc1 -d -p 3000:9000 sonarqube: latest
+
+docker ps
+
+docker ps -a 
+
+docker run --name docker container
+
+
+
+
+docker file 
+
+
+vi docker file
+
+FROM nginx:latest
+LABEL maintainner "srikanth"
+RUN  apt update && apt install git -y
+COPY ./index.html /usr /share /nginx/html
+expose 80
+
+
+
+FROM tomcat:latest
+LABEL maintainer "srikanth"
+RUN  apt update && apt install tomcat -y
+COPY ./index.html /usr /share /tomcat/html
+expose 8080
+
+FROM jenkins:latest
+LABEL maintainer "srikanth"
+RUN apt update && apt install jenkins -y
+COPY ./index.html/usr /share/jenkins
+EXPOSE 8080
+
+
+FROM nexus:latest
+LABEL maintainer "srikanth"
+RUN apt update -y && apt install tomcat -y
+ENTRYPOINT "echo", "wel come to vcube" 
+
+
+
+
+kubectl kubedam kubectl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
